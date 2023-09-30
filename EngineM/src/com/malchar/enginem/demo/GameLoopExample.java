@@ -7,7 +7,6 @@ import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
-import javafx.scene.layout.StackPane;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
@@ -15,7 +14,6 @@ public class GameLoopExample extends Application {
 	public static final int FPS = 1;
 	private Pane root;
 	private Rectangle player;
-	private double playerX = 0;
 	private InputController inputController = new InputController();
 	InputHolder input = new InputHolder();
 
